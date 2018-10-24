@@ -1,5 +1,5 @@
 {
-    "name": "omnipay/receipt",
+    "name": "hovoas/omnipay-paybyreceipt",
     "type": "library",
     "description": "Manual driver for the Omnipay payment processing library",
     "keywords": [
