@@ -1,5 +1,5 @@
 {
-    "name": "omnipay/manual",
+    "name": "omnipay/receipt",
     "type": "library",
     "description": "Manual driver for the Omnipay payment processing library",
     "keywords": [
@@ -10,16 +10,12 @@
         "pay",
         "payment"
     ],
-    "homepage": "https://github.com/thephpleague/omnipay-manual",
+    "homepage": "https://github.com/hovoas/omnipay-receipt",
     "license": "MIT",
     "authors": [
         {
-            "name": "Adrian Macneil",
-            "email": "adrian@adrianmacneil.com"
-        },
-        {
-            "name": "Omnipay Contributors",
-            "homepage": "https://github.com/thephpleague/omnipay-manual/contributors"
+            "name": "Hovhannes Asatryan",
+            "email": "hovoas@outlook.com"
         }
     ],
     "autoload": {
