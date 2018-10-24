@@ -1,4 +1,4 @@
-# Omnipay: Manual
+# Omnipay: Pay by receipt
 
 **Manual driver for the Omnipay PHP payment processing library**
 
@@ -17,7 +17,7 @@ to your `composer.json` file:
 ```json
 {
     "require": {
-        "omnipay-paybyreceipt": "dev-master"
+        "hovoas/omnipay-paybyreceipt": "dev-master"
     }
 }
 ```
