@@ -19,7 +19,7 @@
         }
     ],
     "autoload": {
-        "psr-4": { "Omnipay\\Manual\\" : "src/" }
+        "psr-4": { "Omnipay\\Receipt\\" : "src/" }
     },
     "require": {
         "omnipay/common": "^2.0||^3.0"

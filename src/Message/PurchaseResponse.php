@@ -20,33 +20,9 @@ class PurchaseResponse extends AbstractResponse implements RedirectResponseInter
         return true;
     }
 
-
-    /**
-     * Mark purchase as redirect type
-     * @return bool
-     */
-    public function isRedirect()
-    {
-        return false;
-    }
-
-
-    /**
-     * Get redirect method
-     * @return string
-     */
-    public function getRedirectMethod()
-    {
-        return 'GET';
-    }
-
-
-    /**
-     * Get redirect data
-     * @return array|mixed
-     */
-    public function getRedirectData()
-    {
-        return $this->data;
+    public function getData() {
+        return [
+            'transaction' => $this->data
+        ];
     }
 }
