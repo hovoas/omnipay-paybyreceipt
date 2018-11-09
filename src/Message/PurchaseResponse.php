@@ -21,7 +21,7 @@ class PurchaseResponse extends AbstractResponse implements RedirectResponseInter
     }
 
     public function getData() {
-        return [
+        return (object) [
             'transaction' => $this->data
         ];
     }
